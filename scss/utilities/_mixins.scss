@@ -1,0 +1,10 @@
+@mixin desktop {
+  @media (min-width: $sm-bkpt) {
+    @content;
+  }
+}
+
+@mixin flexn {
+  display: flex;
+  @content;
+}

@@ -1,0 +1,33 @@
+.grid__row button {
+  @extend %btn-grid;
+  width: 100%;
+  text-align: center;
+  color: $btn-text;
+  text-transform: uppercase;
+  margin-top: 25px;
+  @include desktop {
+    width: 15%;
+    margin-left: 2.25%;
+    margin-right: 2.25%;
+  }
+}
+
+.btn--default {
+  background: $default;
+}
+
+.btn--success {
+  background: $success;
+}
+
+.btn--info {
+  background: $info;
+}
+
+.btn--error {
+  background: $error;
+}
+
+.btn--warning {
+  background: $warning;
+}

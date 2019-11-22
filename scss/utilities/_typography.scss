@@ -1,0 +1,46 @@
+.container * {
+  font-family: $main-font;
+}
+
+.headline--primary { /* h1 */
+  color: $viking;
+  padding-left: 15px;
+}
+
+.container p { /* p */
+  line-height:1.5;
+  color: $white-text;
+  font-size: 18px;
+}
+
+.headline--secondary { /* h4 */
+  color: $white-text;
+  font-weight: $light-weight;
+  font-size: 18px;
+}
+
+.link { /* a */
+  color: $default;
+  font-weight: $heavy-weight;
+  text-decoration: none;
+}
+
+.blockquote {
+  margin-left: 10px;
+  padding-left: 10px;
+  border-left: solid 5px $washed-green;
+  border-radius: 5px 0 0 5px;
+  font-style: italic;
+  font-size: 22px;
+  color: $white-text;
+  @include desktop {
+    font-size: 26px;
+    line-height: 1.25;
+  }
+}
+
+.grid__col--8 > .card {
+  @include desktop {
+    padding-right: 100px;
+  }
+}

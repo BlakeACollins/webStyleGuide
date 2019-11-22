@@ -1,0 +1,32 @@
+.form {
+  text-align: center;
+  margin-top: 25px;
+  box-sizing : border-box;
+  .btn--default {
+    @include desktop {
+      width: 100%;
+      margin-left: 0;
+      box-sizing : border-box;
+    }
+  }
+  @include desktop {
+    .img--avatar {
+      margin-top: 25px;
+    }
+  }
+  input {
+    border: none;
+    width: 100%;
+    margin-top: 25px;
+    border-bottom: solid 5px $washed-green;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    box-sizing : border-box;
+  }
+  input::placeholder {
+      font-weight: $heavy-weight;
+    }
+  label {
+    display: none;
+  }
+}

@@ -1,0 +1,19 @@
+.img--avatar {
+  text-align: center;
+  margin-top: 25px;
+  @include desktop {
+    margin-top: 0;
+  }
+}
+
+.img--frame {
+  max-width: 100%;
+  padding: 10px;
+  border: solid 1px $white-text;
+  box-sizing : border-box;
+}
+
+.grid__col--6 {
+  max-width: 100%;
+  text-align: center;
+}
